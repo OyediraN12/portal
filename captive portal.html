@@ -1,0 +1,84 @@
+
+<!-- saved from url=(0132)https://www.netgate.com/assets/downloads/hangouts/201706_-_pfSense_Hangout_-_Advanced_Captive_Portal-customloginpreauthredirect.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+<form method="post" action="https://www.netgate.com/assets/downloads/hangouts/$PORTAL_ACTION$">
+	<input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+	<input name="zone" type="hidden" value="$PORTAL_ZONE$">
+	<center>
+	<table cellpadding="6" cellspacing="0" width="550" height="380" style="border:1px solid #000000">
+	<tbody><tr>
+		<td align="center">
+			<img src="./201706_-_pfSense_Hangout_-_Advanced_Captive_Portal-customloginpreauthredirect_files/captiveportal-example_co_ugly_logo.png">
+		</td>
+	</tr>
+	<tr height="10" bgcolor="#990000">
+		<td style="border-bottom:1px solid #000000">
+			<font color="white">
+			<b>
+				Welcome to the <strong>Example Co</strong> Captive Portal!
+			</b>
+			</font>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div id="mainlevel">
+			<center>
+			<table width="100%" border="0" cellpadding="5" cellspacing="0">
+			<tbody><tr>
+				<td>
+					<center>
+					<div id="mainarea">
+					<center>
+					<table width="100%" border="0" cellpadding="5" cellspacing="5">
+					<tbody><tr>
+						<td>
+							<div id="maindivarea">
+							<center>
+								<!-- Display an error box for login failures -->
+								<div id="statusbox">
+									<font color="red" face="arial" size="+1">
+									<b>
+										$PORTAL_MESSAGE$
+									</b>
+									</font>
+								</div>
+								<br>
+								<div id="loginbox">
+								<table>
+									<tbody><tr><td colspan="2"><center>Please login or enter a voucher code to continue.</center></td></tr>
+									<tr><td>&nbsp;</td></tr>
+									<tr><td align="right">Username:</td><td><input name="auth_user" type="text" style="border: 1px dashed;"></td></tr>
+									<tr><td align="right">Password:</td><td><input name="auth_pass" type="password" style="border: 1px dashed;"></td></tr>
+									<tr><td>&nbsp;</td></tr>
+
+									<tr>
+										<td align="right">Enter Voucher Code: </td>
+										<td><input name="auth_voucher" type="text" style="border:1px dashed;" size="22"></td>
+									</tr>
+
+									<tr>
+										<td colspan="2"><center><input name="accept" type="submit" value="Continue"></center></td>
+									</tr>
+								</tbody></table>
+								</div>
+							</center>
+							</div>
+						</td>
+					</tr>
+					</tbody></table>
+					</center>
+					</div>
+					</center>
+				</td>
+			</tr>
+			</tbody></table>
+			</center>
+			</div>
+		</td>
+	</tr>
+	</tbody></table>
+	</center>
+</form>
+
+</body></html>
